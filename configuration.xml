@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+
+<xml>
+	<application>
+		<default_character_encoding>UTF-8</default_character_encoding>
+		<default_page>index</default_page>
+		<default_extension>html</default_extension>
+		<auto_routing>1</auto_routing>
+		<paths>
+			<controllers>application/controllers</controllers>
+			<wrappers>application/wrappers</wrappers>
+			<views>application/views</views>
+			<listeners>application/listeners</listeners>
+			<models>application/models</models>
+		</paths>
+	</application>
+	<formats>
+		<format extension="html" content_type="text/html"/>
+		<format extension="json" content_type="application/json" class="JsonWrapper"/>
+	</formats>
+</xml>
